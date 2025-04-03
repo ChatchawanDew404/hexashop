@@ -1,0 +1,313 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HEXASHOP</title>
+  <!-- remix icons -->
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+<!-- tailwind css -->
+  <link href="./output.css" rel="stylesheet">
+  <!-- swiper -->
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body>
+  
+  
+   <!------------- [Navigation Bar]------------------>
+   <nav class="navigationBar duration-200 sticky bg-whiteColor border-b-[3px] border-lightGray border-dotted z-[99]">
+    <!-- nav content in navigationBar component-->
+   </nav>
+
+
+   <!----------------- [Banner]-------------------------->
+   <header class="banner py-[60px] borderDottedSection mt-[10px]">
+
+    <div class="bannerContainer px-4 grid gap-7 lg:grid-template-columns: repeat(5, minmax(0, 1fr));">
+
+      <div class="bannerBx relative flex items-center justify-center md:justify-start lg:col-start-1 lg:col-end-3 lg:row-start-1 lg:row-end-3">
+        <div class="image w-full"><img src="/images/left-banner-image.jpg" alt="" class="w-full bg-cover"></div>
+        <div class="content text-center absolute m-[80px] md:text-left md:m-[80px]">
+          <h1 class="text-whiteColor text-[52px] font-bold leading-[60px] max-w-[375px] mx-auto md:max-w-full md:font-extrabold">We Are Hexashop</h1>
+          <p class="text-whiteColor py-[20px]">Awesome, clean & creative HTML5 Template</p>
+          <button class="buttonWhite hover:buttonWhiteHover">Purchase Now!</button>
+        </div>
+      </div>
+
+      <div class="bannerBx relative group lg:col-start-3 lg:col-end-4 lg:row-start-1 lg:row-end-2">
+        
+        <div class="image"><img src="/images/baner-right-image-01.jpg" alt="" class="w-full"></div>
+        <div class="content bannerLeftBoxContentStyle">
+          <h1 class="bannerLeftBoxContentTitleStyle">Women</h1>
+          <p class="bannerLeftBoxContentParagraphStyle">Best Clothes For Women</p>
+        </div>
+        
+          <div class="bannerLeftBoxHoverContentStyle opacity-[0] group-hover:opacity-[0.98]">
+            <h1 class="bannerLeftBoxContentTitleStyle">Women</h1>
+            <p class="bannerLeftBoxContentParagraphStyle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, tempora.</p>
+            <button class="buttonWhite hover:buttonWhiteHover">Discover More</button>
+          </div> 
+
+      </div>
+
+      <div class="bannerBx relative group lg:col-start-4 lg:col-end-5 lg:row-start-1 lg:row-end-2">
+        <div class="image"><img src="/images/baner-right-image-02.jpg" alt="" class="w-full"></div>
+
+        <div class="content bannerLeftBoxContentStyle">
+          <h1 class="bannerLeftBoxContentTitleStyle">Men</h1>
+          <p class="bannerLeftBoxContentParagraphStyle">Best Clothes For Men</p>
+        </div>
+
+          <div class="bannerLeftBoxHoverContentStyle opacity-[0] group-hover:opacity-[0.97]">
+            <h1 class="bannerLeftBoxContentTitleStyle">Men</h1>
+            <p class="bannerLeftBoxContentParagraphStyle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, tempora.</p>
+            <button class="buttonWhite hover:buttonWhiteHover">Discover More</button>
+          </div>
+      </div>
+
+
+      <div class="bannerBx relative group lg:col-start-3 lg:col-end-4 lg:row-start-2 lg:row-end-3">
+        <div class="image"><img src="/images/baner-right-image-03.jpg" alt="" class="w-full h-full"></div>
+
+        <div class="content bannerLeftBoxContentStyle">
+          <h1 class="bannerLeftBoxContentTitleStyle">kids</h1>
+          <p class="bannerLeftBoxContentParagraphStyle">Best Clothes For Kids</p>
+        </div>
+
+          <div class="bannerLeftBoxHoverContentStyle opacity-[0] group-hover:opacity-[0.98]">
+            <h1 class="bannerLeftBoxContentTitleStyle">Kids</h1>
+            <p class="bannerLeftBoxContentParagraphStyle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, tempora.</p>
+            <button class="buttonWhite hover:buttonWhiteHover">Discover More</button>
+          </div>
+
+      </div>
+
+      <div class="bannerBx relative group lg:col-start-4 lg:col-end-5 lg:row-start-2 lg:row-end-3">
+        <div class="image"><img src="/images/baner-right-image-04.jpg" alt="" class="w-full"></div>
+        <div class="content bannerLeftBoxContentStyle">
+          <h1 class="bannerLeftBoxContentTitleStyle">Accessories</h1>
+          <p class="bannerLeftBoxContentParagraphStyle">Best Trend Accessories</p>
+        </div>
+          <div class="bannerLeftBoxHoverContentStyle opacity-[0] group-hover:opacity-[0.98]">
+            <h1 class="bannerLeftBoxContentTitleStyle">Accessories</h1>
+            <p class="bannerLeftBoxContentParagraphStyle">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, tempora.</p>
+            <button class="buttonWhite hover:buttonWhiteHover">Discover More</button>
+          </div>
+      </div>
+
+    </div>
+</header>
+
+ 
+   <!------------------ [Men'shop]------------------------->
+   <section class="menShop borderDottedSection">
+    <div class="container">
+      <div class="headerBox">
+        <h1 class="headerTitle">Men's Latest
+        </h1>
+        <p class="headerParagraph">Details to details is what makes Hexashop different from the other themes.</p>
+      </div>
+
+      <div class="swiper menProductSlide">
+        <div class="swiper-wrapper">
+
+          <!-- data in index.js (JSON Data) -->
+          
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+      
+    </div>
+   </section>
+
+
+   <!------------------ [Women'shop]------------------------->
+   <section class="womenShop borderDottedSection">
+    <div class="container">
+      <div class="headerBox">
+        <h1 class="headerTitle">Women's Latest
+        </h1>
+        <p class="headerParagraph">Details to details is what makes Hexashop different from the other themes.</p>
+      </div>
+
+      <div class="swiper womenProductSlide">
+        <div class="swiper-wrapper">
+
+           <!-- data in index.js (JSON Data) -->
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      
+    </div>
+   </section>
+
+   <!------------------ [kid'shop]------------------------->
+   <section class="kidsShop borderDottedSection">
+    <div class="container">
+      <div class="headerBox">
+        <h1 class="headerTitle">kid's Latest
+        </h1>
+        <p class="headerParagraph">Details to details is what makes Hexashop different from the other themes.</p>
+      </div>
+
+      <div class="swiper kidsProductSlide">
+        <div class="swiper-wrapper">
+          
+          <!-- data in index.js (JSON Data) -->
+           
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+      
+    </div>
+   </section>
+
+   <!-- ---------------- [Our Product]------------------------->
+   <section class="ourProduct borderDottedSection">
+    <div class="container">
+      <div class="ourProduct_container lg:grid lg:grid-cols-2 lg:gap-12">
+        <div class="ourProduct_leftBox mb-16 lg:mb-0">
+          <h2 class="headerTitle mb-[15px]">Explore Our Products</h2>
+          <p class="text-gray2 text-[15px]">You are allowed to use this HexaShop HTML CSS template. You can feel free to modify or edit this layout. You can convert this template as any kind of ecommerce CMS theme as you wish.</p>
+          <div class="paragragpBx my-5 flex items-center gap-3">
+            <i class="ri-double-quotes-l text-[40px]"></i>
+            <p class="text-[14px]">You are not allowed to redistribute this template ZIP file on any other website.</p>
+          </div>
+          <p class="text-gray2 mb-6 text-[15px]">There are 5 pages included in this HexaShop Template and we are providing it to you for absolutely free of charge at our TemplateMo website. There are web development costs for us.
+            If this template is beneficial for your website or business, pl</p>
+          <p class="text-gray2 text-[15px] mb-8">If this template is beneficial for your website or business, please kindly <a href="./pages/contact.html" class="text-blue-600">support us</a> a little via PayPal. Please also tell your friends about our great website. Thank you.</p>
+          <button class="buttonBlack hover:buttonBlackHover">Discover More</button>
+        </div>
+       
+        <div class="ourProduct_rightBox grid gap-7 lg:grid-cols-2">
+          <div class="content bg-whiteColor2 w-full flex flex-col items-center justify-center py-16 lg:py-0"><h2 class="text-[24px] font-bold mb-2">Leather Bags</h2>
+          <p class="text-gray2 text-[15px]">Latest Collection</p></div>
+           <div class="image"><img src="/images/explore-image-01.jpg" alt="" class="w-full"></div>
+           <div class="image"><img src="/images/explore-image-02.jpg" alt="" class="w-full"></div>
+           <div class="content bg-whiteColor2 w-full flex flex-col items-center justify-center py-16 lg:py-0"><h2 class="text-[24px] font-bold mb-2">Different Types</h2>
+           <p class="text-gray2 text-[15px]">Over 304 Products</p></div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+
+   <!-- ---------------- [Social Media]------------------------->
+   <section class="Social borderDottedSection">
+    <div class="container">
+       <div class="header mb-10">
+        <h2 class="headerTitle">Social Media</h2>
+        <p class="text-gray2 italic text-[15px]">Details to details is what makes Hexashop different from the other themes.</p>
+       </div>
+       <div class="socialImgBx flex">
+
+
+        <div class="imageBx relative group">
+          <img src="/images/instagram-01.jpg" alt="">
+          <div class="hoverBx p-3 duration-200 flex items-end absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-90">
+            <div class="iconBx text-white">
+              <p class="text-[1px] md:text-[15px]">Fashion</p><i class="ri-instagram-fill"></i>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="imageBx relative group">
+          <img src="/images/instagram-02.jpg" alt="">
+          <div class="hoverBx p-3 duration-200 flex items-end absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-90">
+            <div class="iconBx text-white">
+              <p class="text-[1px] md:text-[15px]">New</p>
+              <i class="ri-instagram-fill"></i>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="imageBx relative group">
+          <img src="/images/instagram-03.jpg" alt="">
+          <div class="hoverBx p-3 duration-200 flex items-end absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-90">
+            <div class="iconBx text-white">
+              <p class="text-[1px] md:text-[15px]">Brand</p>
+<i class="ri-instagram-fill"></i>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="imageBx relative group">
+          <img src="/images/instagram-04.jpg" alt="">
+          <div class="hoverBx p-3 duration-200 flex items-end absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-90">
+            <div class="iconBx text-white">
+              <p class="text-[1px] md:text-[15px]">Makeup</p>
+<i class="ri-instagram-fill"></i>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="imageBx relative group">
+          <img src="/images/instagram-05.jpg" alt="">
+          <div class="hoverBx p-3 duration-200 flex items-end absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-90">
+            <div class="iconBx text-white">
+              <p class="text-[1px] md:text-[15px]">Leather</p>
+<i class="ri-instagram-fill"></i>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="imageBx relative group">
+          <img src="/images/instagram-06.jpg" alt="">
+          <div class="hoverBx p-3 duration-200 flex items-end absolute top-0 left-0 w-full h-full bg-black opacity-0 group-hover:opacity-90">
+            <div class="iconBx text-white">
+              <p class="text-[1px] md:text-[15px]">Bag</p>
+              <i class="ri-instagram-fill"></i>
+            </div>
+          </div>
+        </div>
+
+       </div>
+    </div>
+   </section>
+
+   <!------------------- [Subscribe]--------------------------->
+   <section class="subscribe">
+     <!-- subscribe content in subscribe.js -->
+   </section>
+
+   <!------------------------- [Footer]------------------------- -->
+   <footer class="bg-darkGray py-10 text-center md:text-left text-whiteColor">
+     <!--content in footer component  -->
+  </footer>
+
+  <!-------------------- [Loading] -------------------->
+  <div class="loading duration-200 fixed top-0 left-0 w-full h-full bg-darkGray z-[100] flex items-center justify-center opacity-100 visible">
+    <div class="loadingPoing relative">
+      <div class="point1 absolute bg-white rounded-full p-2 animate-point1"></div>
+      <div class="point2 absolute bg-white rounded-full p-2 animate-point2"></div>
+    </div>
+  </div>
+
+   <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+   <!-- script JS -->
+   <script src="./javascript/component/navigationBar.js"></script>
+   <!-- component -->
+    <script src="./javascript/loading.js"></script>
+    <script src="./javascript/component/navigationBar.js"></script>
+    <script src="./javascript/component/productBox.js"></script>
+    <script src="./javascript/component/subscribe.js"></script>
+    <script src="./javascript/component/footer.js"></script>
+</body>
+</html>

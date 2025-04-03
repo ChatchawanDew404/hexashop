@@ -1,0 +1,136 @@
+{
+  "products":{
+        "men": [
+          {
+            "id": 1,
+            "image": "/images/men-01.jpg",
+            "name": "Men's Leather Jacket",
+            "price": "$120.00",
+            "rates": 5
+          },
+          {
+            "id": 2,
+            "image": "/images/men-02.jpg",
+            "name": "Slim Fit Denim Jeans",
+            "price": "$85.00",
+            "rates": 5
+          },
+          {
+            "id": 3,
+            "image": "/images/men-03.jpg",
+            "name": "Cotton Crew Neck T-Shirt",
+            "price": "$40.00",
+            "rates": 5
+          },
+          {
+            "id": 4,
+            "image": "/images/men-01.jpg",
+            "name": "Sports Running Shoes",
+            "price": "$110.00",
+            "rates": 5
+          },
+          {
+            "id": 5,
+            "image": "/images/men-02.jpg",
+            "name": "Casual Hoodie",
+            "price": "$75.00",
+            "rates": 5
+          },
+          {
+            "id": 6,
+            "image": "/images/men-03.jpg",
+            "name": "Classic Leather Wallet",
+            "price": "$50.00",
+            "rates": 5
+          }
+        ],
+        "women": [
+          {
+            "id": 7,
+            "image": "/images/women-01.jpg",
+            "name": "Elegant Silk Blouse",
+            "price": "$95.00",
+            "rates": 5
+          },
+          {
+            "id": 8,
+            "image": "/images/women-02.jpg",
+            "name": "High Waist Jeans",
+            "price": "$90.00",
+            "rates": 5
+          },
+          {
+            "id": 9,
+            "image": "/images/women-03.jpg",
+            "name": "Floral Summer Dress",
+            "price": "$130.00",
+            "rates": 5
+          },
+          {
+            "id": 10,
+            "image": "/images/women-01.jpg",
+            "name": "Comfortable Running Sneakers",
+            "price": "$100.00",
+            "rates": 5
+          },
+          {
+            "id": 11,
+            "image": "/images/women-02.jpg",
+            "name": "Soft Knit Cardigan",
+            "price": "$85.00",
+            "rates": 5
+          },
+          {
+            "id": 12,
+            "image": "/images/women-03.jpg",
+            "name": "Leather Handbag",
+            "price": "$150.00",
+            "rates": 5
+          }
+        ],
+        "kid": [
+          {
+            "id": 13,
+            "image": "/images/kid-01.jpg",
+            "name": "Kids' Cotton T-Shirt",
+            "price": "$30.00",
+            "rates": 5
+          },
+          {
+            "id": 14,
+            "image": "/images/kid-02.jpg",
+            "name": "Denim Overalls",
+            "price": "$70.00",
+            "rates": 5
+          },
+          {
+            "id": 15,
+            "image": "/images/kid-03.jpg",
+            "name": "Comfortable Sneakers",
+            "price": "$55.00",
+            "rates": 5
+          },
+          {
+            "id": 16,
+            "image": "/images/kid-01.jpg",
+            "name": "Winter Wool Jacket",
+            "price": "$95.00",
+            "rates": 5
+          },
+          {
+            "id": 17,
+            "image": "/images/kid-02.jpg",
+            "name": "Soft Pajama Set",
+            "price": "$60.00",
+            "rates": 5
+          },
+          {
+            "id": 18,
+            "image": "/images/kid-03.jpg",
+            "name": "Cute Backpack",
+            "price": "$40.00",
+            "rates": 5
+          }
+        ]
+      }
+}

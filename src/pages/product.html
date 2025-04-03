@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEXASHOP</title>
+     <!-- remix icons -->
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+<!-- tailwind css -->
+  <link href="/src/output.css" rel="stylesheet">
+   <!-- swiper -->
+   <link
+   rel="stylesheet"
+   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+ />
+</head>
+<body>
+  
+    
+   <!------------- [Navigation Bar]------------------>
+   <nav class="navigationBar shadow-sm sticky bg-whiteColor border-b-[3px] border-lightGray border-dotted z-[99]">
+    <!-- nav content in navigationBar component-->
+   </nav>
+
+   <!------------- [Banner]------------------>
+   <header class="mt-[60px] relative flex items-center justify-center h-[65vh] bg-[url('/images/products-page-heading.jpg')]">
+    <div class="container z-10 p-5">
+     <div class="content text-center">
+       <h1 class="text-white text-[52px] font-bold mb-2">Check Our Products</h1>
+       <p class="text-white">Awesome & Creative HTML CSS layout by TemplateMo</p>
+     </div>
+    </div>
+ </header>
+
+
+ <!-- All Product -->
+  <section class="allProduct">
+    <div class="container">
+      <div class="headerBox text-center">
+        <h2 class="headerTitle">Our Latest Products</h2>
+        <p class="headerParagraph italic">Check out all of our products.</p>
+      </div>
+
+    
+
+    <div class="allProduct">
+      <!-- [Men'shop]- -->
+      <div class="swiper menProductSlide mb-10">
+        <div class="swiper-wrapper">
+
+          <!-- data in index.js (JSON Data) -->
+          
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+      <!-- [Women shop] -->
+      <div class="swiper womenProductSlide mb-10">
+        <div class="swiper-wrapper">
+
+           <!-- data in index.js (JSON Data) -->
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+      <!-- [kids shop] -->
+      <div class="swiper kidsProductSlide mb-10">
+        <div class="swiper-wrapper">
+          
+          <!-- data in index.js (JSON Data) -->
+           
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+      </div>
+
+      <!-- [pagination] -->
+       <ul class="flex justify-center gap-4">
+        <li class="border px-4 py-2 hover:bg-darkGray hover:text-white cursor-pointer">1</li>
+        <li class="border px-4 py-2 bg-darkGray text-white">2</li>
+        <li class="border px-4 py-2 hover:bg-darkGray hover:text-white cursor-pointer">3</li>
+        <li class="border px-4 py-2 hover:bg-darkGray hover:text-white cursor-pointer">4</li>
+        <li class="border px-3 py-2 hover:bg-darkGray hover:text-white cursor-pointer"><i class="ri-arrow-right-wide-line"></i></li>
+       </ul>
+    </div>
+  </div>
+  </section>
+ 
+
+
+     <!------------------------- [Footer]------------------------- -->
+     <footer class="bg-darkGray py-10 text-center md:text-left text-whiteColor">
+        <!--content in footer component  -->
+     </footer>
+
+       <!-------------------- [Loading] -------------------->
+  <div class="loading duration-200 fixed top-0 left-0 w-full h-full bg-darkGray z-[100] flex items-center justify-center opacity-100 visible">
+    <div class="loadingPoing relative">
+      <div class="point1 absolute bg-white rounded-full p-2 animate-point1"></div>
+      <div class="point2 absolute bg-white rounded-full p-2 animate-point2"></div>
+    </div>
+  </div>
+   
+      <!-- Swiper JS -->
+   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- component -->
+  <script src="/src/javascript/loading.js"></script>
+  <script src="/src/javascript/component/productBox.js"></script>
+  <script src="/src/javascript/component/navigationBar.js"></script>
+  <script src="/src/javascript/component/footer.js"></script>
+</body>
+</html>

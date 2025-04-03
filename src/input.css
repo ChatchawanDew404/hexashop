@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* *{border: 1px solid red;} */
+
+@layer base{
+  h1,
+  h2,h3,h4,h5,h6,p{@apply font-poppins}
+    section{@apply py-[80px] sm:px-[45px]}
+}
+
+@layer components{
+
+}
+
+@layer utilities{
+  .bannerLeftBoxContentStyle{
+     @apply text-center absolute top-1/2 left-1/2 z-[3] transform -translate-x-1/2 -translate-y-1/2 w-full
+  }
+  .bannerLeftBoxContentTitleStyle{
+       @apply text-whiteColor text-[24px] font-extrabold 
+  }
+  .bannerLeftBoxContentParagraphStyle{
+    @apply text-whiteColor text-[16px] my-3
+  }
+
+  .bannerLeftBoxHoverContentStyle{
+    @apply duration-500 absolute top-1/2 left-1/2 z-[4] transform -translate-x-1/2 -translate-y-1/2 text-center w-[90%] h-[90%] bg-darkGray flex flex-col items-center justify-center p-10
+  }
+  
+  .buttonWhite{
+    @apply duration-200 text-white border-white border-[1px] px-6 py-3 text-[14px] cursor-pointer
+  }
+  .buttonWhiteHover{
+    @apply bg-whiteColor text-blackColor 
+  }
+  .buttonBlack{
+    @apply duration-200 text-blackColor border-black border-[1px] px-6 py-3 text-[14px] cursor-pointer
+  }
+  .buttonBlackHover{
+    @apply bg-blackColor text-whiteColor 
+  }
+
+  .borderDottedSection{@apply border-b-[3px] border-lightGray border-dotted}
+
+   /*--------------------- headerBox ------------------  */
+   .headerBox{@apply mb-[60px]}
+   .headerTitle{@apply text-darkGray2 text-[36px] font-bold}
+   .headerParagraph{@apply text-gray}
+}
+
+
+/* [clip-path:polygon(0_0,_100%_0,_100%_100%,_0%_100%)]
+[clip-path:polygon(0_0,_100%_0,_100%_0,_0_0)] */

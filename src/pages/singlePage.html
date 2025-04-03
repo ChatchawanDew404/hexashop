@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEXASHOP</title>
+     <!-- remix icons -->
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+<!-- tailwind css -->
+  <link href="/src/output.css" rel="stylesheet">
+</head>
+<body>
+    <!------------- [Navigation Bar]------------------>
+   <nav class="navigationBar shadow-sm sticky bg-whiteColor border-b-[3px] border-lightGray border-dotted z-[99]">
+    <!-- nav content in navigationBar component-->
+   </nav>
+
+   <!------------- [Banner]------------------>
+   <header class="mt-[60px] relative flex items-center justify-center h-[65vh] bg-[url('/images/products-page-heading.jpg')]">
+    <div class="container z-10 p-5">
+     <div class="content text-center">
+       <h1 class="text-white text-[52px] font-bold mb-2">Single Product Page</h1>
+       <p class="text-white">Awesome & Creative HTML CSS layout by TemplateMo</p>
+     </div>
+    </div>
+ </header>
+
+   <!------------- [Single Product]------------------>
+   <section class="singleProduct">
+    <div class="container">
+      <div class="singleProductContent lg:grid lg:grid-cols-[2fr_1fr] gap-8">
+        <div class="sp_left">
+             <div class="image mb-8"><img src="/images/single-product-01.jpg" alt="" class="w-full"></div>
+             <div class="image"><img src="/images/single-product-02.jpg" alt="" class="w-full"></div>
+        </div>
+        <div class="sp_right mt-5 lg:mt-0">
+          <!-- name product and rate -->
+          <div class="content flex justify-between mt-5 gap-4 border-b border-lightGray pb-5">
+            <div class="leftBx">
+              <h2 class="name text-[22px] font-bold mb-2">New Green Jacket</h2>
+              <p class="price text-[18px]  text-gray font-medium">$75.00</p>
+            </div>
+            <div class="rightBx text-[13px] w-[120px] flex justify-end gap-1">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+            </div>
+          </div>
+          <!-- description -->
+           <div class="description mt-10 border-b border-lightGray">
+            <p class="text-gray2 text-[15px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod kon tempor incididunt ut labore.</p>
+            <div class="quote my-4 flex items-center gap-3">
+              <i class="ri-double-quotes-l text-[40px]"></i>
+              <p class="text-darkGray my-2 text-[15px] italic">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiuski smod.</p>
+            </div>
+           </div>
+           <!-- order -->
+            <div class="order border-b border-lightGray flex justify-between items-center py-8">
+               <p class="text-[22px] text-gray font-bold">No. of Orders</p>
+               <div class="qty flex">
+                <input type="button" value="-" class=" border px-3 border-lightGray hover:bg-lightGray cursor-pointer">
+                 <input type="text" class="w-[35px] border-t border-b border-lightGray px-2 py-2 text-center" value="1">
+                 <input type="button" value="+" class=" border px-3 border-lightGray hover:bg-lightGray cursor-pointer">
+               </div>
+            </div>
+            <div class="addToCard flex justify-between items-center py-8">
+              <p class="allprice text-[22px] text-gray font-bold">Total: $210.00</p>
+              <button class="duration-200 py-2 px-5 border text-[15px] hover:bg-darkGray hover:text-whiteColor hover:cursor-pointer">Add To Cart</button>
+            </div>
+        </div>
+      </div>
+    </div>
+   </section>
+
+    <!------------------------- [Footer]------------------------- -->
+    <footer class="bg-darkGray py-10 text-center md:text-left text-whiteColor">
+        <!--content in footer component  -->
+     </footer>
+
+       <!-------------------- [Loading] -------------------->
+  <div class="loading duration-200 fixed top-0 left-0 w-full h-full bg-darkGray z-[100] flex items-center justify-center opacity-100 visible">
+    <div class="loadingPoing relative">
+      <div class="point1 absolute bg-white rounded-full p-2 animate-point1"></div>
+      <div class="point2 absolute bg-white rounded-full p-2 animate-point2"></div>
+    </div>
+  </div>
+
+       <!-- component -->
+       <script src="/src/javascript/loading.js"></script>
+       <script src="/src/javascript/component/navigationBar.js"></script>
+       <script src="/src/javascript/component/footer.js"></script>
+</body>
+</html>
