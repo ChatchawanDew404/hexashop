@@ -11,8 +11,8 @@ This project is a practice in using Tailwind to assist in website development al
 - Contact Us
 
 ## 🛠️ Technologies Used
-Frontend: HTML, CSS, JavaScript
-Styling: Tailwind CSS
+- Frontend : HTML, CSS, JavaScript
+- CSS framework : Tailwind CSS
 
 ## 🚀 Installation & Usage
 - git clone https://github.com/yourusername/yourproject.git
