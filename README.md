@@ -15,8 +15,8 @@ This project is a practice in using Tailwind to assist in website development al
 - CSS framework : Tailwind CSS
 
 ## 🚀 Installation & Usage
-- git clone https://github.com/yourusername/yourproject.git
-- cd yourproject
+- clone project by git or download zip folder
+- cd yourprojectname
 - npm install
 - Open VS Code
 - Go to Extensions (Ctrl + Shift + X)
